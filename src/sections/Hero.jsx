@@ -91,7 +91,7 @@ export const Hero = () => {
                                 Follow me:
                             </span>
                             {[
-                                { icon: FiGithub, href: "https://github.com/yourusername" },
+                                { icon: FiGithub, href: "https://github.com/jericson2332" },
                                 { icon: FiLinkedin, href: "https://linkedin.com/in/yourusername" },
                                 { icon: FiTwitter, href: "https://twitter.com/yourusername" },
                             ].map((social, idx) => (
