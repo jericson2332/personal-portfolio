@@ -5,13 +5,13 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
     {
-        title: "Fintech Dashboard",
+        title: "Telecom Website",
         description: 
-        "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+        "A self-project of telecom website, that have a admin panel and use page, and this is a sample of the website that i created from scratch, this project is still in progress and i will update it soon.",
         image: "/projects/MY-WEB-SAMPLE.jpg",
         tags: ["React", "TailwindCss", "NodeJs"],
         link: "#",
-        github: "#",
+        github: "https://github.com/jericson2332/CVMS",
     },
     {
         title: "E-Commerce Platform",
