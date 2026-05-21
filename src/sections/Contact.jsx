@@ -129,7 +129,7 @@ export const Contact = () =>{
                             <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
                             <input 
                                 id="email" 
-                                type="text" 
+                                type="email" 
                                 required
                                 placeholder="juandelacruz@gmail.com"
                                 value={formData.email}
@@ -142,7 +142,9 @@ export const Contact = () =>{
 
                         <div>
                             <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-                            <textarea rows={5}
+                            <textarea
+                                id="message"
+                                rows={5}
                                 required
                                 placeholder="Your message..."
                                 value={formData.message}
@@ -167,7 +169,7 @@ export const Contact = () =>{
                         </Button>
                         {submitStatus.type && (
                             <div className={`flex items-center gap-3 p-4 rounded-xl 
-                            ${submitStatus.type === "success" ? "bg-green-500/10 border border-gree-500/20 text-green"
+                            ${submitStatus.type === "success" ? "bg-green-500/10 border border-green-500/20 text-green"
                                 :"bg-red-500/10 border border-red-500/20 text-red-400"
                             }`}>
                                 {submitStatus.type === "success" ? (
