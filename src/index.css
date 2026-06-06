@@ -86,6 +86,7 @@
       transform: translateY(0);
        filter: blur(0);
     }
+    
   }  
 
   @keyframes slow-drift {
@@ -122,7 +123,7 @@
       transform: translateX(-50%);
     }
   }
-
+  
 
   .animate-fade-in {
     animation: fade-in 0.8s ease-out both;
