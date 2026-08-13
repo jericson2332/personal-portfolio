@@ -89,7 +89,7 @@ export const Contact = () =>{
             <div className="absolute bottom-1/4 right-1/4 w-94 h-94 bg-primary/5 rounded-full blur-3xl" />
         </div>
 
-        <div className="caontainer mx-auto px-6 relative z-10">
+        <div className="container mx-auto px-6 relative z-10">
             {/* Section Header */}
             <div className="text-center max-w-3xl mx-auto mb-16">
                 <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
@@ -108,7 +108,7 @@ export const Contact = () =>{
             </div>
 
             <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-                <div className="glass p-8 rounded-3xl boder border-primary/30 animate-fade-in animation-delay-300">
+                <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
                     <form className="space-y-6" onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
