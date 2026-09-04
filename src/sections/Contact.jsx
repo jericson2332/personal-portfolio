@@ -13,8 +13,8 @@ const contactinfo = [
     {
         icon: Phone,
         label: "Phone",
-        value: "N/A",
-        href: "0991-245-8399"
+        value: "0991-245-8399",
+        href: "#"
     },
     {
         icon: MapPin,
